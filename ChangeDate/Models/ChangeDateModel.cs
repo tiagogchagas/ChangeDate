@@ -187,7 +187,7 @@ namespace ChangeDate.Models
         /// <param name="date">Date that will receives specified minutes.</param>
         /// <param name="op">Operantion value. Inform '+' char value to add minutes or '-' char to subtract minutes.</param>
         /// <param name="value">Value in minutes that will be added (or subtract) in the specified date.</param>
-        /// <returns></returns>
+        /// <returns>Return new DateTime.</returns>
         public string ChangeDate(string date, char op, long value)
         {
             try
